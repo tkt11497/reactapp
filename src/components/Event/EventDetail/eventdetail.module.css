@@ -1,0 +1,12 @@
+.Imagestyle{
+    filter: brightness(30%)
+}
+
+.TextStyle {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    width: 100%;
+    height: auto;
+    color: white;
+};

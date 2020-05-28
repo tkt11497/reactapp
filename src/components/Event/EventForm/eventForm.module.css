@@ -1,0 +1,29 @@
+
+ .HI {
+    animation-name: form_animation;
+    animation-duration: 2s;
+ }
+ .Remove{
+    animation-name: form_remove;
+    animation-duration: 3s;
+ }
+ 
+
+ @keyframes form_remove{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+@keyframes form_animation{
+    0%{
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
